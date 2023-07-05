@@ -31,7 +31,10 @@
     },
   "enableRenovate": true,
   "extends": [
-       "config:best-practices",
+       "config:base",
+       "docker:pinDigests",
+       "helpers:pinGitHubActionDigests",
+       ":pinDevDependencies",
        "github>whitesource/merge-confidence:beta"
       ]
   }
