@@ -11,7 +11,7 @@ services:
       - "4000:4000"
 
   mongo:
-    image: mongo:4.4@sha256:dcef38a5b82ca7e1293055ededc22d38fb27fffb526523c70a4cbd864182c310
+    image: mongo:7.0@sha256:d14158139a0bbc1741136d3eded7bef018a5980760a57f0014a1d4ac7677e4b1
     user: mongodb
     expose:
       - 27017
